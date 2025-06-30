@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DrinkSelectionDialog</class>
+ <widget class="QWidget" name="DrinkSelectionDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1400</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="confirmButton">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>390</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="drinkNameLabel">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>140</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="largeRadio">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>210</y>
+     <width>91</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>大杯</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="smallRadio">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>210</y>
+     <width>91</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>中杯</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="robustaRadio">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>290</y>
+     <width>91</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>罗布斯塔</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="blendRadio">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>290</y>
+     <width>91</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>blend</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="coldRadio">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>370</y>
+     <width>91</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>冷</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="warmRadio">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>370</y>
+     <width>91</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>热</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="countSpinBox">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>310</y>
+     <width>42</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="background" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1441</width>
+     <height>991</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#background {  
+    border-image:url(:/icons/background.png) 0 0 0 0 stretch stretch;
+	background-size: contain;  
+}</string>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>confirmButton</zorder>
+  <zorder>drinkNameLabel</zorder>
+  <zorder>largeRadio</zorder>
+  <zorder>smallRadio</zorder>
+  <zorder>robustaRadio</zorder>
+  <zorder>blendRadio</zorder>
+  <zorder>coldRadio</zorder>
+  <zorder>warmRadio</zorder>
+  <zorder>countSpinBox</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

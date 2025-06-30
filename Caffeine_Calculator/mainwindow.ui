@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1400</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>560</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1400</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#centralwidget{
+ border-image: url(:/resources/icon/main.png) 0 0 0 0 stretch stretch;
+ }</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="background" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1441</width>
+      <height>991</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#background {  
+    border-image:url(:/icons/background.png) 0 0 0 0 stretch stretch;
+	background-size: contain;  
+}</string>
+    </property>
+    <widget class="QWidget" name="title" native="true">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>60</y>
+       <width>911</width>
+       <height>351</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>550</width>
+       <height>220</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>1000</width>
+       <height>10000</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget#title {  
+    border-image:url(:/icons/main.png) 0 0 0 0 stretch stretch;
+    background-position: center;  /* 图片居中 */
+    background-repeat: no-repeat; /* 不重复 */
+   
+    
+}</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="yuanyuan1" native="true">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>280</y>
+       <width>561</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget#yuanyuan1 {  
+    border-image:url(:/icons/IMG_0448.png) 0 0 0 0 stretch stretch;
+	background-size: contain;  
+}</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="newOrderButton">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>430</y>
+       <width>531</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 16pt ;</string>
+     </property>
+     <property name="text">
+      <string>添加咖啡</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="monthlyStatsButton">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>530</y>
+       <width>531</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font:16pt;</string>
+     </property>
+     <property name="text">
+      <string>咖啡月历</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="monthlyStatsButton_3">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>730</y>
+       <width>531</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 16pt;</string>
+     </property>
+     <property name="text">
+      <string>关于我们</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="mybutton">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>630</y>
+       <width>531</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font:16pt;</string>
+     </property>
+     <property name="text">
+      <string>我的档案</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="profileButton">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>40</y>
+       <width>211</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt ;</string>
+     </property>
+     <property name="text">
+      <string>账号设置</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1400</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
