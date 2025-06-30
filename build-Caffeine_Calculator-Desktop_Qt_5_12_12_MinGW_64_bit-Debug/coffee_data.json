@@ -1,0 +1,66 @@
+{
+    "111": {
+        "records": {
+        }
+    },
+    "default": {
+        "records": {
+            "2025-06-02": [
+                {
+                    "count": 2,
+                    "drink": "tea"
+                }
+            ],
+            "2025-06-04": [
+                {
+                    "count": 3,
+                    "drink": "tea"
+                }
+            ],
+            "2025-06-05": [
+                {
+                    "count": 1,
+                    "drink": "coffee"
+                }
+            ],
+            "2025-06-06": [
+                {
+                    "count": 1,
+                    "drink": "ttt"
+                }
+            ],
+            "2025-06-07": [
+                {
+                    "count": 1,
+                    "drink": "ttt"
+                }
+            ],
+            "2025-06-10": [
+                {
+                    "count": 2,
+                    "drink": "tea"
+                }
+            ],
+            "2025-06-16": [
+                {
+                    "count": 1,
+                    "drink": "tea"
+                }
+            ],
+            "2025-06-19": [
+                {
+                    "count": 1,
+                    "drink": "coffee"
+                }
+            ]
+        }
+    },
+    "ee": {
+        "records": {
+        }
+    },
+    "ypneumaCoffit": {
+        "records": {
+        }
+    }
+}
